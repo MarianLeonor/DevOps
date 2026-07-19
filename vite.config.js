@@ -7,6 +7,10 @@ export default defineConfig({
         react()
     ],
 
-    base: "/ReactJsCoder/"
+    base: "/ReactJsCoder/",
+
+    build: {
+        chunkSizeWarningLimit: 1000
+    }
 
 })
