@@ -1,0 +1,29 @@
+.btn-primary{
+
+    background:#6F4E37;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#4E342E;
+
+}
+
+.btn-success{
+
+    background:#6D8B74;
+
+    border:none;
+
+}
+
+.btn-danger{
+
+    background:#8D6E63;
+
+    border:none;
+
+}

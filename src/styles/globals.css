@@ -1,0 +1,9 @@
+body {
+    background-color: #F5F1EA;
+    font-family: "Poppins", sans-serif;
+    color: #4E342E;
+}
+
+main {
+    min-height: 80vh;
+}
