@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC-8bB3CKVXJBdCOjB8HMgnBJb3VSq15QI",
-  authDomain: "coffee-house-ecommerce.firebaseapp.com",
-  projectId: "coffee-house-ecommerce",
-  storageBucket: "coffee-house-ecommerce.firebasestorage.app",
-  messagingSenderId: "643960361806",
-  appId: "1:643960361806:web:49845c811043d320c9041f"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
