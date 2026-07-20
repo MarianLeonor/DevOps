@@ -52,3 +52,5 @@ jobs:
       - name: Push imagen Docker Hub
         run: |
           docker push marianleonor/ecommerce-devops:latest
+
+          # Pipeline DevOps final
