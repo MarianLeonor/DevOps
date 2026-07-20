@@ -5,12 +5,13 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 jobs:
   prueba:
 
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Hola mundo
         run: echo "GitHub Actions funcionando"
